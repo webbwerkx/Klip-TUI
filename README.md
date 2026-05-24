@@ -1,44 +1,83 @@
 <div align="center">
 
-                                           
-```                                           
-██ ▄█▀ ██     ██ █████▄   ██████ ██  ██ ██ 
-████   ██     ██ ██▄▄█▀ ▄▄▄ ██   ██  ██ ██
-██ ▀█▄ ██████ ██ ██         ██   ▀████▀ ██
- 
-```                                           
+<pre>
+<span style="color:#4DA3FF">
 
-**A terminal-first UI for Klipper 3D printers via Moonraker**
+██╗  ██╗██╗     ██╗██████╗       ████████╗██╗   ██╗██╗
+██║ ██╔╝██║     ██║██╔══██╗      ╚══██╔══╝██║   ██║██║
+█████╔╝ ██║     ██║██████╔╝█████╗   ██║   ██║   ██║██║
+██╔═██╗ ██║     ██║██╔═══╝ ╚════╝   ██║   ██║   ██║██║
+██║  ██╗███████╗██║██║              ██║   ╚██████╔╝██║
+╚═╝  ╚═╝╚══════╝╚═╝╚═╝              ╚═╝    ╚═════╝ ╚═╝
 
-A clean, keyboard-driven dashboard for monitoring and controlling your printer from the command line.
+</span>
+</pre>
+
+# 🚀 KLIP-TUI
+
+### A terminal-first dashboard for Klipper 3D printers
+
+Fast. Minimal. Keyboard-driven.  
+Built for controlling and monitoring Klipper printers through Moonraker directly from your terminal.
 
 </div>
 
 ---
 
-## What it does
+# ✨ Features
 
-KLIP-TUI gives you a simple terminal interface for interacting with a Klipper-powered printer through Moonraker. It is designed to be fast, lightweight, and easy to navigate without leaving your shell.
+- 📊 Real-time printer dashboard
+- ⌨️ Fully keyboard-driven interface
+- 🖥️ Console mode for direct interaction
+- 🚨 Emergency stop support
+- ⚡ Lightweight and fast startup
+- 🔌 Moonraker integration
+- 🧭 Clean terminal UX designed for daily use
 
-## Features
+---
 
-- Dashboard view for quick printer status
-- Console view for command-driven interaction
-- Keyboard-first navigation
-- Emergency stop support
-- Simple, minimal setup
+# 🖼️ Philosophy
 
-## Setup
+KLIP-TUI is designed around a simple idea:
 
-Install dependencies with:
+> Your terminal should be enough.
+
+No heavy web UI.  
+No unnecessary overhead.  
+Just a fast and responsive interface that feels native inside the command line.
+
+---
+
+# 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/klip-tui.git
+cd klip-tui
+```
+
+Install dependencies:
 
 ```bash
 uv sync
 ```
 
-## Configuration
+---
 
-Open `src/klippertui/config.py` and set `MOONRAKER_URL` to your printer's Moonraker endpoint.
+# ⚙️ Configuration
+
+Open:
+
+```bash
+src/klippertui/config.py
+```
+
+Set your Moonraker server address:
+
+```python
+MOONRAKER_URL = "http://192.168.1.50:7125"
+```
 
 Example:
 
@@ -46,37 +85,63 @@ Example:
 MOONRAKER_URL = "http://192.168.1.50:7125"
 ```
 
-## Run
+---
 
-Start the application with:
+# ▶️ Running
+
+Start KLIP-TUI:
 
 ```bash
 uv run klippertui
 ```
 
-## Keybinds
+---
+
+# ⌨️ Keybinds
 
 | Key | Action |
-| --- | --- |
-| `D` | Dashboard |
-| `C` | Console |
-| `ESC` | Back to home |
+|------|---------|
+| `D` | Open dashboard |
+| `C` | Open console |
+| `ESC` | Return home |
 | `E` | Emergency stop |
-| `Q` | Quit |
+| `Q` | Quit application |
 
-## Notes
+---
 
-- Make sure your printer is powered on and reachable on the network before launching the app.
-- If the connection fails, verify the Moonraker IP address and port.
+# 🛰️ Requirements
 
-## Project goal
+- A Klipper-powered 3D printer
+- Moonraker running and accessible on your network
+- Python + `uv`
 
-This project aims to provide a polished terminal interface for Klipper users who want a fast, reliable, and pleasant workflow inside the terminal.
+---
+
+# 🛠️ Development Goals
+
+KLIP-TUI aims to become a polished terminal experience for Klipper users by focusing on:
+
+- Better real-time monitoring
+- Improved websocket handling
+- Rich terminal layouts
+- Responsive TUI components
+- Stable Moonraker communication
+- Efficient keyboard workflows
+
+---
+
+# ⚠️ Notes
+
+- Ensure your printer is powered on before launching KLIP-TUI.
+- Verify your Moonraker IP and port if connection errors occur.
+- Websocket connectivity is required for live printer updates.
 
 ---
 
 <div align="center">
 
-Built for Klipper • Powered by Moonraker
+## Built for the terminal.
+
+**Klipper × Moonraker × TUI**
 
 </div>
