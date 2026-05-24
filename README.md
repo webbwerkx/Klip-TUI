@@ -1,6 +1,12 @@
 <div align="center">
 
-# 🌈 KLIP-TUI
+                                           
+```                                           
+                                       ██ ▄█▀ ██     ██ █████▄   ██████ ██  ██ ██ 
+                                       ████   ██     ██ ██▄▄█▀ ▄▄▄ ██   ██  ██ ██ 
+                                       ██ ▀█▄ ██████ ██ ██         ██   ▀████▀ ██
+ 
+```                                           
 
 **A terminal-first UI for Klipper 3D printers via Moonraker**
 
