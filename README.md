@@ -1,22 +1,20 @@
 <div align="center">
 
-<pre>
-<span style="color:#4DA3FF">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=38&duration=3000&pause=100000&color=58A6FF&center=true&vCenter=true&width=900&height=100&lines=KLIP-TUI" />
 
-██╗  ██╗██╗     ██╗██████╗       ████████╗██╗   ██╗██╗
-██║ ██╔╝██║     ██║██╔══██╗      ╚══██╔══╝██║   ██║██║
-█████╔╝ ██║     ██║██████╔╝█████╗   ██║   ██║   ██║██║
-██╔═██╗ ██║     ██║██╔═══╝ ╚════╝   ██║   ██║   ██║██║
-██║  ██╗███████╗██║██║              ██║   ╚██████╔╝██║
-╚═╝  ╚═╝╚══════╝╚═╝╚═╝              ╚═╝    ╚═════╝ ╚═╝
-
-</span>
-</pre>
+# 🚀 KLIP-TUI
 
 ### A terminal-first dashboard for Klipper 3D printers
 
 Fast. Minimal. Keyboard-driven.  
 Built for controlling and monitoring Klipper printers through Moonraker directly from your terminal.
+
+<p>
+  <img src="https://img.shields.io/badge/Klipper-Compatible-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Moonraker-API-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/TUI-Terminal_UI-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Active_Development-purple?style=for-the-badge" />
+</p>
 
 </div>
 
