@@ -1,13 +1,13 @@
 A terminal UI for controlling Klipper 3D printers via Moonraker — no browser required.
 
-
+```
  ██╗  ██╗██╗     ██╗██████╗       ████████╗██╗   ██╗██╗
  ██║ ██╔╝██║     ██║██╔══██╗      ╚══██╔══╝██║   ██║██║
  █████╔╝ ██║     ██║██████╔╝         ██║   ██║   ██║██║
  ██╔═██╗ ██║     ██║██╔═══╝          ██║   ██║   ██║██║
  ██║  ██╗███████╗██║██║              ██║   ╚██████╔╝██║
  ╚═╝  ╚═╝╚══════╝╚═╝╚═╝             ╚═╝    ╚═════╝ ╚═╝
-
+```
 
 Built with [Textual](https://github.com/Textualize/textual). Connects to your printer's Moonraker API over HTTP/WebSocket.
 
