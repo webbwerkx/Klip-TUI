@@ -13,8 +13,6 @@
 </span>
 </pre>
 
-# 🚀 KLIP-TUI
-
 ### A terminal-first dashboard for Klipper 3D printers
 
 Fast. Minimal. Keyboard-driven.  
