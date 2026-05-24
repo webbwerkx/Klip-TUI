@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=38&duration=3000&pause=100000&color=58A6FF&center=true&vCenter=true&width=900&height=100&lines=KLIP-TUI" />
-
-# 🚀 KLIP-TUI
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=68&duration=4000&pause=100000&color=58A6FF&center=true&vCenter=true&width=900&height=100&lines=KLIP-TUI" />
 
 ### A terminal-first dashboard for Klipper 3D printers
 
